@@ -27,4 +27,4 @@ jobs:
        - name: Ejecutar pruebas
          run: |
            source venv/bin/activate
-           python -m pytest -v tests/test_cupones.pypytest
+           python -m pytest -v tests/test_cupones.py
